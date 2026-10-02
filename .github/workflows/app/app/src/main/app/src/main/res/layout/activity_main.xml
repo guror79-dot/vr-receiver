@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0b1120">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNITVR RECEIVER"
+        android:textColor="#38bdf8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvIpAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP: 192.168.1.50:8888"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvServiceStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Служба активна"
+        android:textColor="#4ade80"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnPermissionOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Разрешить отображение поверх окон"
+        android:backgroundTint="#0284c7"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStartServiceManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перезапустить службу (Порт 8888)"
+        android:backgroundTint="#334155" />
+
+</LinearLayout>
